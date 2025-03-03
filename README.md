@@ -88,6 +88,7 @@ As part of my journey to becoming proficient in cloud engineering, I focused on 
 
 **Skills: File searching, directory navigation**
 **Hint: Use tools that allow you to search through directory structures**
+![image](https://github.com/user-attachments/assets/d2ad7d26-ab3a-4495-9b3f-ae6f72a709b7)
 
 - Searched for files containing the word "secret" in their name under the home directory using the find command:
 - find ~ -name "*secret*"
@@ -96,6 +97,8 @@ As part of my journey to becoming proficient in cloud engineering, I focused on 
 
 **Skills: File size analysis, sorting, log navigation**
 **Hint: Identify a very large file by inspecting file details, and view it partially to avoid overwhelming the terminal.**
+![image](https://github.com/user-attachments/assets/087b3aef-bc3c-4fde-8890-77b618a79e28)
+![image](https://github.com/user-attachments/assets/8edcb78e-30d8-42c2-aa0e-d26d3f3b9e89)
 
 - Navigated to the /var/log directory:
 - cd /var/log
@@ -109,6 +112,7 @@ As part of my journey to becoming proficient in cloud engineering, I focused on 
 
 **Skills: User management, system files, permissions**
 **Hint: Determine which user the UID corresponds to and check their configuration files.**
+![image](https://github.com/user-attachments/assets/dfd502af-9373-4396-9c5b-d99ca19093dd)
 
 - Accessed the root account to investigate user configurations:
 - sudo -s
@@ -123,6 +127,7 @@ As part of my journey to becoming proficient in cloud engineering, I focused on 
 
 **Skills: Permission understanding, file searching
 Hint: Look for files with unusually permissive permissions and ownership.**
+![image](https://github.com/user-attachments/assets/2434896d-c1e4-4ec1-85a3-18adfa737ecc)
 
 - Navigated to the /opt directory and listed all files:
 - cd /opt
@@ -138,6 +143,7 @@ Hint: Look for files with unusually permissive permissions and ownership.**
 
 **Skills: Process management, networking tools, service inspection
 Hint: Consider the type of service running on port 8080 and how to interact with it.**
+![image](https://github.com/user-attachments/assets/6fc1d730-9e86-4c2c-bf79-393a61861e58)
 
 - Retrieved the IP address of the host using ip addr show:
 - ip addr show
@@ -149,6 +155,7 @@ Hint: Consider the type of service running on port 8080 and how to interact with
 
 **Skills: Base64 encoding/decoding, command piping
 Hint: Notice that the flag has been processed twice by an encoding algorithm; think about how to reverse this in sequence.**
+![image](https://github.com/user-attachments/assets/db1d36b1-1314-4ad2-8a00-34287274d33f)
 
 - Used base64 decoding twice in sequence to decode the encoded flag:
 - base64 -d <(base64 -d encoded_flag.txt)
@@ -157,6 +164,7 @@ Hint: Notice that the flag has been processed twice by an encoding algorithm; th
 
 **Skills: SSH configuration, key management, security practices
 Hint: Inspect the SSH directory structure and verify file permissions to uncover hidden files.**
+![image](https://github.com/user-attachments/assets/f4209882-3862-4117-acf2-515efe3bc88e)
 
 - Navigated through the directories and used ls -lh to view the file permissions of SSH-related files:
 - ls -lh ~/.ssh
@@ -168,6 +176,7 @@ Hint: Inspect the SSH directory structure and verify file permissions to uncover
 
 **Skills: DNS troubleshooting, file editing
 Hint: Compare the current DNS configuration with its backup to understand what has changed.**
+![image](https://github.com/user-attachments/assets/06971b22-3bb1-4ef5-89e1-de7bdaccb69c)
 
 - Entered the /etc directory and listed all files:
 - cd /etc
